@@ -253,6 +253,17 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.feature-icon-container {
+  display: flex;
+  width: 264px;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 24px 100px;
+}
+
 /* Competences section */
 .compet-section {
   padding-bottom: 120px;
