@@ -30,6 +30,7 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 1px solid red;
 }
 /* reset */
 h1,
@@ -296,6 +297,26 @@ img {
   gap: 8px;
   border-radius: 0px 0px 4px 4px;
 }
+
+/* Customer section */
+
+.customer {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customer-list {
+  display: flex;
+  align-items: center;
+  gap: var(--indent);
+}
+
+.cust-icon {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 168px;
+  height: 88px;
+}
 /* footer section */
 .footer {
   background: var(--secondary-navy-blue);
@@ -318,6 +339,7 @@ img {
   padding: 0px;
 }
 
+/* portfolio */
 /*service section*/
 .serv-section {
   padding-top: 96px;
