@@ -30,7 +30,6 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
 }
 /* reset */
 h1,
@@ -175,9 +174,20 @@ img {
 /* hero section */
 
 .hero {
-  background: var(--secondary-navy-blue);
+  background-color: var(--secondary-navy-blue);
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hm4/people-office1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
