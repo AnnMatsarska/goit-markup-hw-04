@@ -318,7 +318,25 @@ img {
   gap: 8px;
   border-radius: 0px 0px 4px 4px;
 }
-
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--indent);
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-iris);
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--ocean);
+}
 /* Customer section */
 
 .customer {
