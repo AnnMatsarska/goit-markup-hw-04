@@ -412,16 +412,15 @@ img {
   display: flex;
   align-items: first baseline;
   justify-content: left;
-  gap: 120px;
+  margin-right: 120px;
 }
 .left-footer {
   max-width: 264px;
-  margin-right: 0;
+  margin-right: 120px;
   display: inline-block;
 }
 .right-footer {
   max-width: 264px;
-  margin-left: 120px;
   display: inline-block;
 }
 .right-footer-title {
