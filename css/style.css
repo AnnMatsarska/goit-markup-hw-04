@@ -406,8 +406,7 @@ img {
   display: flex;
   align-items: first baseline;
   justify-content: left;
-  margin-right: 120px;
-  
+  gap: 120px;
 }
 .left-footer {
   max-width: 264px;
