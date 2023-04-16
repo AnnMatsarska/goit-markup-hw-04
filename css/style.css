@@ -369,7 +369,7 @@ img {
   height: 100%;
   border: 1px solid var(--subtle-text-light-slate);
   border-radius: 4px;
-  color: #afb1b8;
+  color: var(--subtle-text-light-slate) ;
 }
 .customer-icon {
   fill: currentColor;
@@ -406,6 +406,7 @@ img {
   display: flex;
   align-items: first baseline;
   justify-content: left;
+  margin-right: 120px;
   
 }
 .left-footer {
